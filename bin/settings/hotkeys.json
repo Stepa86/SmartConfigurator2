@@ -368,8 +368,8 @@
 {
 "Id": "707a036c-323b-4379-9eb6-780d7996cdc6",
 "Key": "F",
-"Ctrl": false,
-"Alt": true,
+"Ctrl": true,
+"Alt": false,
 "Shift": true,
 "Win": false,
 "Command": "OneStyle\\Main::Форматировать",
