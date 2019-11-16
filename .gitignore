@@ -327,3 +327,11 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# Временные файлы
+
+bin/tmp
+
+# Вспомогательные бинарные файлы
+
+bin/bsl-language-server.jar
