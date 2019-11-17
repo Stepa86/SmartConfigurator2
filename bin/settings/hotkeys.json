@@ -373,7 +373,7 @@
 "Shift": true,
 "Win": false,
 "Command": "OneStyle\\Main::Форматировать",
-"App": "1cv8.exe,1cedt.exe",
+"App": "1cv8.exe",
 "Comment": ""
 }
 ]
