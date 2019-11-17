@@ -30,9 +30,9 @@
 	КодВозврата = 0;
 	СтрокаЗапуска = "java -jar bsl-language-server.jar --analyze --reporter json --srcDir tmp -o tmp";
 	
-	файлНастроек = Новый Файл("bsl-language-server.json");
+	файлНастроек = Новый Файл("settings/bsl-language-server.json");
 	Если файлНастроек.Существует() Тогда
-		СтрокаЗапуска = СтрокаЗапуска + " --configuration bsl-language-server.json";
+		СтрокаЗапуска = СтрокаЗапуска + " --configuration settings/bsl-language-server.json";
 	КонецЕсли;
 
 	ЗапуститьПриложение(СтрокаЗапуска, , Истина, КодВозврата);
