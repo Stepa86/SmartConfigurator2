@@ -386,5 +386,16 @@
 "Command": "BSL::ВыполнитьАнализТекущегоМодуля",
 "App": "1cv8.exe",
 "Comment": ""
+},
+{
+"Id": "bebc3cc3-dcac-414c-849d-16a17a9080b4",
+"Key": "V",
+"Ctrl": true,
+"Alt": false,
+"Shift": true,
+"Win": false,
+"Command": "VSC::ОткрытьВVSC",
+"App": "1cv8.exe",
+"Comment": ""
 }
 ]
