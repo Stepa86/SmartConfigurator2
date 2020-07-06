@@ -1,15 +1,26 @@
 {
-  "$schema": "https://raw.githubusercontent.com/1c-syntax/bsl-language-server/master/src/main/resources/org/github/_1c_syntax/bsl/languageserver/configuration/schema.json",
-  "computeDiagnostics": "onType",
-  "diagnosticLanguage": "ru",
-  "diagnostics": {
-      "TernaryOperatorUsage": true,
-      "MissingSpace": false,
-      "MagicNumber": {
-          "authorizedNumbers": "-1,0,1,2,100"
-      },
-      "LineLength": {
-          "maxLineLength": 140
-      }
-  }
+    "$schema": "https://1c-syntax.github.io/bsl-language-server/dev/configuration/schema.json",
+    "language": "ru",
+    "codeLens": {
+        "showCognitiveComplexity": true,
+        "showCyclomaticComplexity": true
+    },
+    "diagnostics": {
+        "computeTrigger": "onSave",
+        "mode": "all",
+        "parameters": {
+            "TernaryOperatorUsage": true,
+            "LineLength": {
+                "maxLineLength": 140
+            },
+            "MissingSpace": false,
+            "MagicNumber": {
+                "authorizedNumbers": "-1,0,1,2,100"
+            },
+            "NestedFunctionInParameters": false,
+            "Typo": {
+                "userWordsToIgnore": "Структ,структ,Гуид,Ууид,Всд,Карантирование,Дозаказ,Дозаполнить,Дозаполнение,Дозаказа,Разузловать"
+            }
+        }
+    }
 }
