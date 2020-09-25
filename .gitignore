@@ -332,6 +332,10 @@ ASALocalRun/
 
 bin/tmp
 
+# Настройки
+
+bin/settings/bsl-language-server.json
+
 # Вспомогательные бинарные файлы
 
 bin/bsl-language-server.jar
